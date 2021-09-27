@@ -1,5 +1,7 @@
 ## 2.18 Homework
 
+Solution: [homework.ipynb](homework.ipynb)
+
 ### Dataset
 
 In this homework, we will use the New York City Airbnb Open Data. You can take it from
@@ -51,9 +53,9 @@ What's the median (50% percentile) for variable 'minimum_nights'?
 
 * We need to deal with missing values for the column from Q1.
 * We have two options: fill it with 0 or with the mean of this variable.
-* Try both options. For each, train a linear regression model without regularization using the code from the lesssons.
+* Try both options. For each, train a linear regression model without regularization using the code from the lessons.
 * For computing the mean, use the training only!
-* Compare the RMSE of each option.
+* Use the validation dataset to evaluate the models and compare the RMSE of each option.
 * Round the RMSE scores to 2 decimal digits using `round(score, 2)`
 * Which option gives better RMSE?
 
@@ -63,6 +65,7 @@ What's the median (50% percentile) for variable 'minimum_nights'?
 * Now let's train a regularized linear regression.
 * For this question, fill the NAs with 0. 
 * Try different values of `r` from this list: `[0, 0.000001, 0.0001, 0.001, 0.01, 0.1, 1, 5, 10]`.
+* Use RMSE to evaluate the model on the validation dataset.
 * Round the RMSE scores to 2 decimal digits.
 * Which `r` gives the best RMSE?
 
@@ -75,7 +78,7 @@ If there are multiple options, select the smallest `r`.
 * Try different seed values: `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`.
 * For each seed, do the train/validation/test split with 60%/20%/20% distribution.
 * Fill the missing values with 0 and train a model without regularization.
-* For each seed, collect the RMSE scores. 
+* For each seed, evaluate the model on the validation dataset and collect the RMSE scores. 
 * What's the standard deviation of all the scores? To compute the standard deviation, use `np.std`.
 * Round the result to 3 decimal digits (`round(std, 3)`)
 
@@ -90,8 +93,8 @@ If there are multiple options, select the smallest `r`.
 
 * Split the dataset like previously, use seed 9.
 * Combine train and validation datasets.
-* Train a model with `r=0.001`.
-* What's the RMSE on test dataset?
+* Fill the missing values with 0 and train a model with `r=0.001`. 
+* What's the RMSE on the test dataset?
 
 
 ## Submit the results
