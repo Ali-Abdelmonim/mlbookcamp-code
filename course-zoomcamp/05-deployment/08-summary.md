@@ -1,8 +1,10 @@
-## 4.8 Summary
 
-<a href="https://www.youtube.com/watch?v=-v8XEQ2AHvQ"><img src="images/thumbnail-4-08.jpg"></a>
+## 5.8 Summary
 
-[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-4-evaluation-metrics-for-classification)
+
+COMING SOON 
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
 
 
 ## Notes
@@ -24,6 +26,6 @@ Add notes from the video (PRs are welcome)
 ## Nagivation
 
 * [Machine Learning Zoomcamp course](../)
-* [Session 4: Evaluation Metrics for Classification](./)
-* Previous: [Cross-Validation](07-cross-validation.md)
+* [Session 5: Deploying Machine Learning Models](./)
+* Previous: [Deployment to the cloud: AWS Elastic Beanstalk (optional)](07-aws-eb.md)
 * Next: [Explore more](09-explore-more.md)
